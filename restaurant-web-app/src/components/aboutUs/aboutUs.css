@@ -1,0 +1,75 @@
+.app__aboutus {
+  background: url("../../assets/bg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__aboutus div {
+  padding: 3rem 0;
+}
+.app__aboutus-overlay {
+  position: absolute;
+  z-index: 0;
+}
+.app__aboutus-overlay img {
+  width: 391px;
+  height: 415px;
+}
+.app__aboutus-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1;
+}
+.app__aboutus-containers-content h2 {
+  font-family: Cormorant Upright;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 83.2px;
+  letter-spacing: 0.03em;
+  color: #dcca87;
+
+  padding-bottom: 0.5rem;
+}
+.align-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+.right img {
+  writing-mode: horizontal-tb;
+  transform: rotate(180deg);
+}
+.app__aboutus-containers-image img {
+  height: 703px;
+  margin: 0 6.5rem;
+}
+.app__aboutus-containers-content p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #aaaaaa;
+
+  max-width: 525px;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+}
+.app__aboutus-containers-content button {
+  padding: 0.5rem 2rem;
+  outline: none;
+  border: none;
+  background: #dcca87;
+
+  font-family: Cormorant Upright;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+}

@@ -1,0 +1,135 @@
+.app__header {
+  background-color: #0c0b08;
+}
+.app__header-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.app__header-main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.app__header-sidewaystext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  padding-left: 7rem;
+}
+.app__header-sidewaystext p {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31.5px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #fff;
+}
+.app__header-content {
+  flex: 1.5;
+}
+.app__header-content h5 {
+  font-family: Cormorant Upright;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 29.9px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #fff;
+}
+.app__header-content h1 {
+  font-family: Cormorant Upright;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 117px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #dcca87;
+
+  margin-bottom: 2rem;
+}
+.app__header-content p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #aaaaaa;
+  margin-bottom: 2rem;
+}
+.app__header-content a {
+  text-decoration: none;
+  color: #0c0b08;
+  font-family: Cormorant Upright;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+
+  padding: 0.5rem 2rem;
+  background-color: #dcca87;
+}
+.app__header-image {
+  flex: 1;
+}
+.app__header-image img {
+  width: 100%;
+}
+.app__header-scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: -2rem;
+  margin-left: 5rem;
+}
+.app__header-scroll span {
+  border: 1px solid #dcca87;
+  margin: 0 0 10px 0;
+  height: 45px;
+  width: 0px;
+}
+.app__header-scroll p {
+  font-family: Cormorant Upright;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #dcca87;
+}
+.app__header-nav {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+.app__header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+
+  padding-bottom: 6.5rem;
+}
+.app__header-nav p {
+  color: #fff;
+  font-family: Cormorant Upright;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+}
+.app__header-nav span {
+  border: 1px solid #dcca87;
+  margin: 0 10px;
+  width: 15px;
+  height: 0px;
+}
