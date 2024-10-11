@@ -82,6 +82,8 @@
 
   padding: 0.5rem 2rem;
   background-color: #dcca87;
+  
+  cursor: pointer;
 }
 .app__header-image {
   flex: 1;

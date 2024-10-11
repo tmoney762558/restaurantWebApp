@@ -17,7 +17,7 @@ const SpecialMenu = () => {
 
   return (
     <div className="app__specialMenu section__padding">
-      <div className="app__specialMenu-header">
+      <div className="app__specialMenu-header" id="specialMenu">
         <p>Menu That Fits Your Pallette</p>
         <img src={spoonImg}></img>
         <h1>Today&apos;s Special</h1>

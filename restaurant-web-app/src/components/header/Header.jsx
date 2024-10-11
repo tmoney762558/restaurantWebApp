@@ -6,7 +6,7 @@ import spoonImg from "../../assets/spoon.png";
 const Header = () => {
   return (
     <div className="app__header section__padding">
-      <div className="app__header-main">
+      <div className="app__header-main" id="home">
         <div className="app__header-main-content">
           <div className="app__header-sidewaystext">
             <p>#Bar</p>
@@ -21,7 +21,7 @@ const Header = () => {
               volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
               aliquam amet tellus{" "}
             </p>
-            <a>Explore Menu</a>
+            <a href="#specialMenu">Explore Menu</a>
           </div>
           <div className="app__header-image">
             <img src={welcomeImg}></img>
