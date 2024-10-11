@@ -44,7 +44,7 @@
   transform: rotate(180deg);
 }
 .app__aboutus-containers-image img {
-  height: 703px;
+  max-width: 84px;
   margin: 0 6.5rem;
 }
 .app__aboutus-containers-content p {

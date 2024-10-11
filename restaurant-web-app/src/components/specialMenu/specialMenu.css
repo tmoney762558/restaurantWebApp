@@ -1,0 +1,121 @@
+.app__specialMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #0c0b08;
+}
+.app__specialMenu-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 5rem;
+}
+.app__specialMenu-header p {
+  font-family: Cormorant Upright;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 29.9px;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  margin-bottom: 0.3rem;
+}
+.app__specialMenu-header img {
+  margin-bottom: 0.2rem;
+}
+.app__specialMenu-header h1 {
+  font-family: Cormorant Upright;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  color: #dcca87;
+}
+.app__specialMenu div:first-child,
+.app__specialMenu div:last-child {
+  padding: 1rem 0;
+}
+.app__specialMenu-menu-winebeer,
+.app__specialMenu-menu-cocktails {
+    flex: 1;
+}
+.app__specialMenu-menu-winebeer h1,
+.app__specialMenu-menu-cocktails h1 {
+  font-family: Cormorant Upright;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-align: center;
+
+  color: #FFF;
+}
+.app__specialMenu-menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 100%;
+}
+.app__specialMenu-menu-winebeer,
+.app__specialMenu-menu-cocktails {
+    max-width: 412px;
+}
+.app__specialMenu-menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  margin-top: 3rem;
+}
+.app__specialMenu-menu-item p:first-of-type {
+  color: #dcca87;
+  font-family: Cormorant Upright;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 29.9px;
+  letter-spacing: 0.04em;
+}
+.app__specialMenu-menu-item p {
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+.menu-bar {
+  color: #fff;
+
+  border-top: 1px solid #fff;
+  width: 119px;
+  margin: 0 2rem;
+  height: 0;
+}
+.app__special-menu-details {
+  color: #aaaaaa;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+}
+.app__specialMenu-image img {
+  max-width: 412px;
+  margin: 0 2.5rem;
+}
+.app__specialMenu-learnMore button {
+  background-color: #dcca87;
+  padding: 0.5rem 2rem;
+  outline: none;
+  border: none;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+
+  font-family: Cormorant Upright;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  cursor: pointer;
+}

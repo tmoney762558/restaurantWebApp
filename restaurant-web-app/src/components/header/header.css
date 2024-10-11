@@ -1,10 +1,13 @@
 .app__header {
   background-color: #0c0b08;
 }
+.app__header div {
+  padding-top: 2rem;
+}
 .app__header-main {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
 }
 .app__header-main-content {
@@ -12,6 +15,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 .app__header-sidewaystext {
   display: flex;
@@ -63,6 +67,8 @@
   letter-spacing: 0.04em;
   text-align: left;
   color: #aaaaaa;
+
+  max-width: 700px;
   margin-bottom: 2rem;
 }
 .app__header-content a {
@@ -79,17 +85,22 @@
 }
 .app__header-image {
   flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
 }
 .app__header-image img {
   width: 100%;
+  max-width: 1250px;
 }
 .app__header-scroll {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 
-  margin-bottom: -2rem;
-  margin-left: 5rem;
+  margin-bottom: -5rem;
 }
 .app__header-scroll span {
   border: 1px solid #dcca87;
