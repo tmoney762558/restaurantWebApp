@@ -15,8 +15,8 @@ import {
 const App = () => {
   return (
     <div className="restaurant__app">
-        <Navbar></Navbar>
-        <Header></Header>
+      <Navbar></Navbar>
+      <Header></Header>
       <AboutUs></AboutUs>
       <SpecialMenu></SpecialMenu>
       <Chef></Chef>
